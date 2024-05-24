@@ -38,7 +38,7 @@ function SlideShow() {
   slidePosition++;
   if (slidePosition > slides.length) {slidePosition = 1}
   slides[slidePosition-1].style.display = "block";
-  setTimeout(SlideShow, 10000); // Change image every 2 seconds
+  setTimeout(SlideShow, 20000); // Change image every 2 seconds
 } 
 
 
